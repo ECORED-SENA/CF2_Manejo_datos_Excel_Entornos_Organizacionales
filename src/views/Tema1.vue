@@ -14,7 +14,7 @@
             img(src='@/assets/curso/tema1/1.png', alt='')
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") La gestión eficiente de datos es el núcleo de cualquier análisis significativo. En el contexto empresarial, esta capacidad puede ser la diferencia entre el éxito y el fracaso de un proyecto. Excel ofrece una herramienta poderosa, aunque a menudo subutilizada, que permite transformar un simple rango de celdas en una base de datos estructurada y dinámica: las Tablas.   
+            p.mb-0(data-aos="fade-up") La gestión eficiente de datos es el núcleo de cualquier análisis significativo. En el contexto empresarial, esta capacidad puede ser la diferencia entre el éxito y el fracaso de un proyecto. Excel ofrece una herramienta poderosa, aunque a menudo subutilizada, que permite transformar un simple rango de celdas en una base de datos estructurada y dinámica: las tablas.   
 
     separador
     
@@ -29,7 +29,7 @@
         .bg-color-16.tarjeta.p-5(data-aos="fade-left")
           p.mb-0 La conversión de datos consiste en transformar la información de un formato a otro para facilitar su análisis y manipulación dentro de Excel. En entornos corporativos, los datos provienen con frecuencia de sistemas heterogéneos, lo que hace necesario un proceso de normalización previo a su procesamiento.
     
-    p.mb-5 En este contexto, es fundamental diferenciar entre un rango de datos y una Tabla de Excel, como se presenta a continuación:
+    p.mb-5 En este contexto, es fundamental diferenciar entre un rango de datos y una tabla de Excel, como se presenta a continuación:
 
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
@@ -84,12 +84,12 @@
       .col-lg-4
         .bg-color-10.text-white.tarjeta.p-5(data-aos="fade-left")
           img(src="@/assets/curso/tema1/4.svg", style="max-width: 90px").mb-3
-          p.mb-0 Para que este conjunto pueda ser tratado como una Tabla de Excel, debe convertirse mediante el siguiente procedimiento.
+          p.mb-0 Para que este conjunto pueda ser tratado como una tabla de Excel, debe convertirse mediante el siguiente procedimiento.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
-        h3.titulo-con-imagen__texto Creación de una Tabla en Excel
+        h3.titulo-con-imagen__texto Creación de una tabla en Excel
 
     p Para transformar un rango en una tabla, siga estos pasos:
 
@@ -101,7 +101,7 @@
       li.d-flex
         .lista-ol--cuadro__vineta
           span b
-        | Vaya a la pestaña Insertar y haga clic en Tabla, o utilice el atajo de teclado Ctrl + T.
+        | Vaya a la pestaña insertar y haga clic en tabla, o utilice el atajo de teclado Ctrl + T.
 
     .bg-full-width.bg-fondo-1.mb-5
       .px-4.px-md-5
@@ -109,7 +109,7 @@
           .col-lg-8
             .titulo-sexto.color-acento-contenido
               h5 Figura 1.
-              span Ventana Crear tabla en Excel
+              span Ventana crear tabla en Excel
 
             figure
               img(src="@/assets/curso/tema1/5.png", data-aos="zoom-in", alt="Imagen de la interfaz emergente que aparece al insertar una tabla, donde se visualiza el rango seleccionado automáticamente y la opción para indicar si la tabla contiene encabezados. ")
@@ -126,7 +126,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span e
-            | Haga clic en Aceptar.
+            | Haga clic en aceptar.
 
 
         .row.justify-content-center.mb-5
@@ -170,7 +170,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2 Ventajas de usar tablas en Excel
     
-    p.mb-5 El uso de <b>Tablas de Excel</b> ofrece múltiples beneficios frente al manejo de rangos simples, especialmente en contextos donde se requiere eficiencia, claridad y actualización dinámica. A continuación, se enumeran algunas de las principales ventajas:
+    p.mb-5 El uso de <b>tablas de Excel</b> ofrece múltiples beneficios frente al manejo de rangos simples, especialmente en contextos donde se requiere eficiencia, claridad y actualización dinámica. A continuación, se enumeran algunas de las principales ventajas:
     
     .row.align-items-center.mb-5
       .col-lg-4.mb-3.mb-lg-0.order-lg-2
@@ -179,7 +179,7 @@
       .col-lg-8.order-lg-1
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-color-5")
           .div(titulo="Formato y estilo automático")
-            p Las tablas aplican automáticamente un formato de bandas de colores a las filas, lo cual mejora la legibilidad. Este estilo puede personalizarse desde la pestaña contextual Diseño de tabla.
+            p Las tablas aplican automáticamente un formato de bandas de colores a las filas, lo cual mejora la legibilidad. Este estilo puede personalizarse desde la pestaña contextual diseño de tabla.
           .div(titulo="Expansión automática")
             p Al agregar una nueva fila o columna contigua, la tabla se expande automáticamente para incluir los nuevos datos, manteniendo tanto el formato como las fórmulas (Frye, 2013).
           .div(titulo="Encabezados visibles")
@@ -228,7 +228,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Conversión de texto a columnas
     
-    p.mb-5 Una de las operaciones más comunes en Excel consiste en separar datos consolidados en una sola celda. Para ello, se utiliza la herramienta Texto en columnas, que permite dividir el contenido con base en:
+    p.mb-5 Una de las operaciones más comunes en Excel consiste en separar datos consolidados en una sola celda. Para ello, se utiliza la herramienta texto en columnas, que permite dividir el contenido con base en:
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
@@ -249,7 +249,7 @@
 
     h3.bg-color-14.d-lg-inline.p-3.tarjeta Ejemplo 1. Separación de nombres completos usando delimitador "espacio"
     
-    p.mb-5.mt-5 En este ejemplo, se presenta cómo dividir una columna que contiene nombres completos en tres columnas: Nombre, Primer Apellido y Segundo Apellido.
+    p.mb-5.mt-5 En este ejemplo, se presenta cómo dividir una columna que contiene nombres completos en tres columnas: nombre, primer apellido y segundo apellido.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-5.mb-3.mb-lg-0
@@ -285,31 +285,31 @@
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span b
-                  | Ir a la pestaña Datos y hacer clic en Texto en columnas.
+                  | Ir a la pestaña datos y hacer clic en texto en columnas.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span c
-                  | Seleccionar Delimitado y hacer clic en Siguiente.
+                  | Seleccionar delimitado y hacer clic en siguiente.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span d
-                  | Marcar únicamente la opción Espacio como delimitador.
+                  | Marcar únicamente la opción espacio como delimitador.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span e
-                  | Hacer clic en Siguiente y verificar que la vista previa muestre tres columnas.
+                  | Hacer clic en siguiente y verificar que la vista previa muestre tres columnas.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span f
-                  | En el campo Destino, dejar $A$2 si se desea sobrescribir, o cambiar a $B$2 si se desea conservar los datos originales.
+                  | En el campo destino, dejar $A$2 si se desea sobrescribir, o cambiar a $B$2 si se desea conservar los datos originales.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span g
-                  | Hacer clic en Finalizar.
+                  | Hacer clic en finalizar.
 
         h3.bg-color-14.d-lg-inline.p-3.tarjeta Ejemplo 2. Separación de datos con delimitador punto y coma
     
-        p.mb-5.mt-5 En muchos casos, los sistemas ERP exportan información en formato CSV utilizando el punto y coma (;) como delimitador. Para analizar estos datos correctamente en Excel, es necesario separarlos en columnas individuales mediante la herramienta Texto en columnas.
+        p.mb-5.mt-5 En muchos casos, los sistemas ERP exportan información en formato CSV utilizando el punto y coma (;) como delimitador. Para analizar estos datos correctamente en Excel, es necesario separarlos en columnas individuales mediante la herramienta texto en columnas.
 
         .row.mb-5.justify-content-center.align-items-center
           .col-lg-4.mb-3.mb-lg-0
@@ -343,15 +343,15 @@
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span b
-                  | Ir a la pestaña Datos y hacer clic en Texto en columnas.
+                  | Ir a la pestaña datos y hacer clic en texto en columnas.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span c
-                  | Seleccionar la opción Delimitado y hacer clic en Siguiente.
+                  | Seleccionar la opción delimitado y hacer clic en siguiente.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span d
-                  | Marcar Punto y coma como delimitador y hacer clic en Siguiente.
+                  | Marcar punto y coma como delimitador y hacer clic en siguiente.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span e
@@ -360,32 +360,32 @@
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span a
-                  | a.	Columna 1 (ID): General o Texto
+                  | Columna 1 (ID): general o texto
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span b
-                  | b.	Columna 2 (Nombre): Texto
+                  | Columna 2 (nombre): texto
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span c
-                  | c.	Columna 3 (Email): Texto
+                  | Columna 3 (email): texto
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span d
-                  | d.	Columna 4 (Teléfono): Texto
+                  | Columna 4 (teléfono): texto
               ol.lista-ol--cuadro.mb-0
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span f
-                  | Hacer clic en Finalizar.
+                  | Hacer clic en finalizar.
     
     h3.bg-color-14.d-inline.p-3.tarjeta Ejemplo 3. Separación por ancho fijo
     
-    p.mb-5.mt-5 Cuando los datos provienen de sistemas legacy o antiguos, es común que se generen reportes en formato de texto plano con posiciones fijas, es decir, sin delimitadores visibles como comas o puntos y comas. En estos casos, Excel permite separar la información utilizando la opción Ancho fijo en la herramienta Texto en columnas.
+    p.mb-5.mt-5 Cuando los datos provienen de sistemas <em>legacy</em> o antiguos, es común que se generen reportes en formato de texto plano con posiciones fijas, es decir, sin delimitadores visibles como comas o puntos y comas. En estos casos, Excel permite separar la información utilizando la opción ancho fijo en la herramienta texto en columnas.
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 7.
-      span Columna “Reporte_Ventas” en Excel antes de aplicar la herramienta “Texto en columnas”
+      span Columna “Reporte_ventas” en Excel antes de aplicar la herramienta “texto en columnas”
     
     .row.mb-5.align-items-center
       .col-lg-6.mb-3.mb-lg-0
@@ -427,11 +427,11 @@
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span b
-                  | Ir a la pestaña Datos y hacer clic en Texto en columnas.
+                  | Ir a la pestaña datos y hacer clic en texto en columnas.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span c
-                  | Seleccionar la opción Ancho fijo y hacer clic en Siguiente.
+                  | Seleccionar la opción ancho fijo y hacer clic en siguiente.
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span d
@@ -458,21 +458,21 @@
               ul.lista-ul--color.ms-3
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 <b>Columna 1</b>: Texto (para conservar ceros iniciales)
+                  p.mb-0 <b>Columna 1</b>: texto (para conservar ceros iniciales)
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 <b>Columna 2</b>: Texto
+                  p.mb-0 <b>Columna 2</b>: texto
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 <b>Columna 3</b>: General
+                  p.mb-0 <b>Columna 3</b>: general
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 <b>Columna 4</b>: General
+                  p.mb-0 <b>Columna 4</b>: general
               ol.lista-ol--cuadro.mb-
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
                     span g
-                  | Hacer clic en Finalizar.
+                  | Hacer clic en finalizar.
 
         p.mb-3 Los datos se separan correctamente en columnas individuales, conservando el formato y las posiciones originales:
 
@@ -483,7 +483,7 @@
           .col-lg-8
             .titulo-sexto.color-acento-contenido
               h5 Figura 8.
-              span Resultado del uso de la herramienta “Texto en columnas” en Excel
+              span Resultado del uso de la herramienta “texto en columnas” en Excel
 
             figure
               img(src="@/assets/curso/tema1/25.png", data-aos="zoom-in", alt="Columna en Excel titulada “Datos_Cliente”, con registros que contienen múltiples campos (ID, nombre, email y teléfono) separados por punto y coma, antes de aplicar la separación en columnas. ")
@@ -569,7 +569,7 @@
                   p.mb-0 Archivos de texto plano: .txt, .csv
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 Bases de datos: Access, SQL Server
+                  p.mb-0 Bases de datos: <em>Access, SQL Server</em>
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Páginas web: .html
@@ -577,7 +577,7 @@
                   i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Archivos estructurados: .xml, .json
 
-        p.mb-5 Para estos casos, la herramienta Obtener datos (basada en Power Query) proporciona funciones avanzadas que permiten:
+        p.mb-5 Para estos casos, la herramienta obtener datos (basada en <em>Power Query</em>) proporciona funciones avanzadas que permiten:
 
         .row.mb-5.justify-content-center
           .col-lg-4.mb-3.mb-lg-0.order-lg-2
@@ -613,7 +613,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/33.png')})`}"
       )(data-aos="zoom-in")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Para maximizar la eficiencia del análisis en Excel, es fundamental contar con una correcta estructuración de los datos. Una estructura bien diseñada facilita la aplicación de fórmulas, la creación de tablas dinámicas, la automatización de procesos y la implementación de controles de validación. <br><br> Uno de los enfoques recomendados es seguir los principios de datos tabulares, también conocidos como tidy data.
+        p.mb-0 Para maximizar la eficiencia del análisis en Excel, es fundamental contar con una correcta estructuración de los datos. Una estructura bien diseñada facilita la aplicación de fórmulas, la creación de tablas dinámicas, la automatización de procesos y la implementación de controles de validación. <br><br> Uno de los enfoques recomendados es seguir los principios de datos tabulares, también conocidos como <em>tidy data</em>.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -715,7 +715,7 @@
                     p.mb-0 <b>Tabla de clientes</b>: contiene los datos del cliente asociados al ID.
                   li.mb-0.d-flex
                     i.fas.fa-circle-arrow-right.bg-color-12
-                    p.mb-0 Las funciones BUSCARV() o XLOOKUP() permiten recuperar los datos cuando se necesiten.
+                    p.mb-0 Las funciones buscarV() o X<em>lookup</em>() permiten recuperar los datos cuando se necesiten.
         p.mb-0 Este enfoque mejora la escalabilidad del archivo, reduce errores y facilita la actualización de datos.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -789,7 +789,7 @@
     
     h3.bg-color-14.d-inline.p-3.tarjeta Ordenación simple
     
-    p.mb-5.mt-5 Este tipo de ordenamiento organiza los datos según una sola columna, ya sea en orden ascendente o descendente. Es útil cuando se desea visualizar los valores más altos o más bajos de un campo específico, como ventas, fechas o cantidades. A continuación, se presenta un conjunto de datos sin ordenar, seguido del resultado luego de aplicar un orden ascendente por la columna Unidades Vendidas:
+    p.mb-5.mt-5 Este tipo de ordenamiento organiza los datos según una sola columna, ya sea en orden ascendente o descendente. Es útil cuando se desea visualizar los valores más altos o más bajos de un campo específico, como ventas, fechas o cantidades. A continuación, se presenta un conjunto de datos sin ordenar, seguido del resultado luego de aplicar un orden ascendente por la columna unidades vendidas:
 
     .bg-full-width.bg-color-4.mb-5
       .px-4.px-md-5
@@ -932,27 +932,27 @@
         figure
           img(src="@/assets/curso/tema1/48.svg", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") Cuando se necesita ordenar por más de un criterio jerárquico, se utiliza la ordenación multinivel. Por ejemplo, se puede ordenar primero por Departamento y luego, dentro de cada departamento, por Salario.
-        p Este tipo de ordenación se configura desde el cuadro de diálogo Ordenar, y permite agregar múltiples niveles según se requiera.
+        p(data-aos="fade-left") Cuando se necesita ordenar por más de un criterio jerárquico, se utiliza la ordenación multinivel. Por ejemplo, se puede ordenar primero por departamento y luego, dentro de cada departamento, por salario.
+        p Este tipo de ordenación se configura desde el cuadro de diálogo ordenar, y permite agregar múltiples niveles según se requiera.
         .bg-color-18.bg.tarjeta.p-4(data-aos="fade-left")
           p.mb-5 Los pasos para aplicar ordenación multinivel son:
           ol.lista-ol--cuadro.mb-0
             li.d-flex.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span a
-              | Ir a la pestaña Datos y hacer clic en Ordenar.
+              | Ir a la pestaña datos y hacer clic en ordenar.
             li.d-flex.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span b
-              | En el cuadro de diálogo, seleccionar la primera columna por la cual ordenar (ejemplo: Departamento).
+              | En el cuadro de diálogo, seleccionar la primera columna por la cual ordenar (ejemplo: departamento).
             li.d-flex.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span c
-              | Hacer clic en Agregar nivel.
+              | Hacer clic en agregar nivel.
             li.d-flex.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span d
-              | Seleccionar el segundo criterio (ejemplo: Salario) y el orden (ascendente o descendente).
+              | Seleccionar el segundo criterio (ejemplo: salario) y el orden (ascendente o descendente).
             li.d-flex.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span e
@@ -987,7 +987,7 @@
         figure
           img(src="@/assets/curso/tema1/50.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1
-        p(data-aos="fade-left") Una de las formas más directas de aplicar filtros es mediante el autofiltro, que agrega menús desplegables a cada encabezado de columna en una tabla. Desde allí, el usuario puede seleccionar o deseleccionar elementos específicos de manera rápida e intuitiva. Esta opción es ideal para análisis exploratorios o consultas ad hoc. A continuación se enumeran sus principales capacidades:
+        p(data-aos="fade-left") Una de las formas más directas de aplicar filtros es mediante el autofiltro, que agrega menús desplegables a cada encabezado de columna en una tabla. Desde allí, el usuario puede seleccionar o deseleccionar elementos específicos de manera rápida e intuitiva. Esta opción es ideal para análisis exploratorios o consultas <em>ad hoc</em>. A continuación se enumeran sus principales capacidades:
         .bg-color-22.bg.tarjeta.p-4(data-aos="fade-left")
           ul.lista-ul--color.mb-0
             li.mb-1.d-flex.bg-color-white.p-1.tarjeta
@@ -1019,7 +1019,7 @@
               figure
                 img(src='@/assets/curso/tema1/51.svg', alt='Texto que describa la imagen')
           h3.text-center.mb-5 Criterios complejos con comodines (*, ?)
-          p.text-center Permiten búsquedas parciales o patrones definidos
+          p.text-center Permiten búsquedas parciales o patrones definidos.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-color-20.p-4.h-100
           .row.justify-content-center.mb-3
@@ -1027,7 +1027,7 @@
               figure
                 img(src='@/assets/curso/tema1/52.svg', alt='Texto que describa la imagen')
           h3.text-center.mb-5 Extracción de resultados a otra ubicación
-          p.text-center Se pueden copiar los datos filtrados en un rango distinto
+          p.text-center Se pueden copiar los datos filtrados en un rango distinto.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-color-20.p-4.h-100
           .row.justify-content-center.mb-3
@@ -1035,7 +1035,7 @@
               figure
                 img(src='@/assets/curso/tema1/53.svg', alt='Texto que describa la imagen')
           h3.text-center.mb-5 Eliminación de duplicados
-          p.text-center Durante el proceso de filtrado, se puede excluir registros repetidos
+          p.text-center Durante el proceso de filtrado, se puede excluir registros repetidos.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg-color-20.p-4.h-100
           .row.justify-content-center.mb-3
@@ -1043,7 +1043,7 @@
               figure
                 img(src='@/assets/curso/tema1/54.svg', alt='Texto que describa la imagen')
           h3.text-center.mb-5 Uso de fórmulas como criterios
-          p.text-center Uso de fórmulas como criterios
+          p.text-center Uso de fórmulas como criterios.
 
     .bg-full-width.bg-color-19.mb-5
       .px-4.px-md-5
@@ -1052,7 +1052,7 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
             h3.titulo-con-imagen__texto Segmentaciones de datos: filtrado visual
         
-        p.mb-5 Las segmentaciones de datos (Slicers) son controles visuales diseñados para aplicar filtros con un solo clic. Aunque inicialmente fueron creadas para tablas dinámicas, hoy también se pueden aplicar a Tablas de Excel normales. Son especialmente útiles en paneles (dashboards) o reportes interactivos. A continuación, se presentan algunas de sus ventajas clave:
+        p.mb-5 Las segmentaciones de datos (<em>Slicers</em>) son controles visuales diseñados para aplicar filtros con un solo clic. Aunque inicialmente fueron creadas para tablas dinámicas, hoy también se pueden aplicar a tablas de Excel normales. Son especialmente útiles en paneles (<em>dashboards</em>) o reportes interactivos. A continuación, se presentan algunas de sus ventajas clave:
 
         .row.mb-5
           .col-lg-5.order-lg-2.mb-3.mb-lg-0
@@ -1087,8 +1087,8 @@
               img(src="@/assets/curso/tema1/56.svg", data-aos="zoom-in")
           .col-lg-8
             LineaTiempoD.color-secundario
-              p(numero="1" titulo="Crear tabla base") Ingrese los campos: Nombre, Departamento, Cargo, FechaContratación y Salario. Luego, escriba algunos registros de ejemplo (mínimo 8 empleados).
-              p(numero="2" titulo="Convertir a tabla") Seleccione el rango con los datos. En la pestaña Insertar, elija Tabla y confirme que la casilla “La tabla tiene encabezados” esté activada.
+              p(numero="1" titulo="Crear tabla base") Ingrese los campos: nombre, departamento, cargo, fecha contratación y salario. Luego, escriba algunos registros de ejemplo (mínimo 8 empleados).
+              p(numero="2" titulo="Convertir a tabla") Seleccione el rango con los datos. En la pestaña insertar, elija tabla y confirme que la casilla “La tabla tiene encabezados” esté activada.
               div(numero="3" titulo="Ordenar datos") 
                 ol.lista-ol
                   li.d-flex 
@@ -1104,10 +1104,10 @@
                     | Active los filtros desde la pestaña Datos > Filtro.
                   li.d-flex 
                     span.text-bold 2. 
-                    | En la columna Departamento, seleccione solo Ventas.
+                    | En la columna departamento, seleccione solo ventas.
                   li.d-flex 
                     span.text-bold 3. 
-                    | En la columna FechaContratación, elija Posterior a 01/01/2022.
+                    | En la columna fecha contratación, elija posterior a 01/01/2022.
               div(numero="4" titulo="Insertar segmentación de datos") 
                 ol.lista-ol
                   li.d-flex 
@@ -1115,10 +1115,10 @@
                     | Seleccione cualquier celda de la tabla.
                   li.d-flex 
                     span.text-bold 2. 
-                    | Vaya a Herramientas de tabla > Insertar segmentación de datos.
+                    | Vaya a Herramientas de tabla > insertar segmentación de datos.
                   li.d-flex 
                     span.text-bold 3. 
-                    | Marque Cargo y haga clic en Aceptar.
+                    | Marque cargo y haga clic en aceptar.
                   li.d-flex 
                     span.text-bold 4. 
                     | Use la segmentación para filtrar visualmente los empleados según su cargo.

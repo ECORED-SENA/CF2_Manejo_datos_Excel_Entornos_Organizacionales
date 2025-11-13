@@ -150,7 +150,7 @@
                   p.mb-0 <b>Limitar el número de líneas</b> a un máximo de 3 a 5 para evitar sobrecarga visual.
                 li.mb-2.d-flex.bg-color-white.p-2.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 Utilizar <b>diferentes estilos de línea</b> (sólida, punteada) además de colores, para facilitar la diferenciación.
+                  p.mb-0 Utilizar <b>diferentes estilos de línea</b> (sólida, punteada), además de colores, para facilitar la diferenciación.
                 li.mb-2.d-flex.bg-color-white.p-2.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Etiquetar las líneas directamente</b>, en lugar de depender únicamente de la leyenda.
@@ -234,7 +234,7 @@
               ul.lista-ul--color.mb-0
                 li.mb-2.d-flex.bg-color-white.p-2.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 Ordenar los segmentos de mayor a menor valor, dejando "Otros" al final.
+                  p.mb-0 Ordenar los segmentos de mayor a menor valor, dejando "otros" al final.
                 li.mb-2.d-flex.bg-color-white.p-2.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Colocar el segmento más grande a las 12 en punto (posición superior).
@@ -396,23 +396,23 @@
             th.bg-color-17 Ejemplo
         tbody
           tr.bg-color-sintesis
-            td Gráfico de Columnas/Barras
+            td Gráfico de columnas/barras
             td Comparar valores entre diferentes categorías.
             td Ventas por producto, población por ciudad.
           tr
-            td Gráfico de Líneas
+            td Gráfico de líneas
             td Mostrar tendencias o cambios a lo largo del tiempo.
             td Evolución de la temperatura, precios de acciones.
           tr.bg-color-sintesis
-            td Gráfico Circular (o de Torta)
+            td Gráfico circular (o de torta)
             td Mostrar la proporción de cada categoría respecto a un total (100 %). Usar con pocas categorías.
             td Distribución de cuota de mercado, composición de un presupuesto.
           tr
-            td Gráfico de Dispersión (XY)
+            td Gráfico de dispersión (XY)
             td Mostrar la relación o correlación entre dos variables numéricas.
             td Relación entre horas de estudio y calificación.
           tr.bg-color-sintesis
-            td Gráfico de Área
+            td Gráfico de área
             td Enfatizar el volumen acumulado o la composición a lo largo del tiempo.
             td Participación de ventas por categoría a lo largo del año.
           tr
@@ -439,12 +439,12 @@
             ul.lista-ul--color
               li.mb-0.d-flex
                 i.fa-solid.fa-circle-check.bg-color-27
-                p.mb-0 <b>Ejemplo malo</b>: "Ventas"
+                p.mb-0 <b>Ejemplo malo</b>: "ventas"
               li.mb-0.d-flex
                 i.fa-solid.fa-circle-check.bg-color-27
-                p.mb-0 <b>Ejemplo bueno</b>: "Evolución de Ventas Mensuales por Región - Primer Semestre"
+                p.mb-0 <b>Ejemplo bueno</b>: "evolución de ventas mensuales por región - primer semestre"
 
-          .div(titulo="Ejes (Eje X y Eje Y)")
+          .div(titulo="Ejes (eje X y eje Y)")
             p Proporcionan el contexto y la escala para los datos representados.
 
             p <b>Títulos de eje</b>: Son etiquetas que explican qué representa cada eje (por ejemplo: "Meses", "Ventas en millones de COP"). Son fundamentales, especialmente cuando las unidades no son obvias.

@@ -89,7 +89,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Tablas de Excel (formales)
     
-    p.mb-5 Las Tablas de Excel, creadas desde Insertar > Tabla o mediante el atajo Ctrl + T, convierten un rango en una estructura dinámica con funcionalidades avanzadas. Estas tablas reconocen encabezados, aplican estilos automáticos y permiten trabajar con referencias estructuradas.
+    p.mb-5 Las tablas de Excel, creadas desde insertar > tabla o mediante el atajo Ctrl + T, convierten un rango en una estructura dinámica con funcionalidades avanzadas. Estas tablas reconocen encabezados, aplican estilos automáticos y permiten trabajar con referencias estructuradas.
 
     p.mb-5 Las tablas en Excel ofrecen múltiples beneficios que van más allá de la simple organización visual de los datos. Entre sus principales ventajas se encuentran:
 
@@ -125,7 +125,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Tablas dinámicas
     
-    p.mb-5 Las tablas dinámicas (PivotTables) no contienen datos, sino que generan resúmenes interactivos a partir de un conjunto de datos origen. Son ideales para el análisis y exploración rápida de información sin necesidad de fórmulas complejas.
+    p.mb-5 Las tablas dinámicas (<em>PivotTables</em>) no contienen datos, sino que generan resúmenes interactivos a partir de un conjunto de datos origen. Son ideales para el análisis y exploración rápida de información sin necesidad de fórmulas complejas.
 
     .row.mb-5
       .col-lg-5.mb-3.mb-lg-0.order-lg-2
@@ -146,7 +146,7 @@
               p.mb-0 Segmentación y filtrado interactivo
             li.mb-2.d-flex.bg-color-white.p-1.tarjeta
               i.fas.fa-circle-arrow-right.bg-color-12
-              p.mb-0 Reorganización de campos con drag-and-drop
+              p.mb-0 Reorganización de campos con <em>drag-and-drop</em>
             li.mb-2.d-flex.bg-color-white.p-1.tarjeta
               i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Actualización dinámica al cambiar los datos de origen
@@ -156,7 +156,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Comparación entre estructuras
     
-    p.mb-5 A continuación, se presenta  una tabla que compara algunas de las características clave entre un rango de datos simple y una Tabla de Excel formal:
+    p.mb-5 A continuación, se presenta  una tabla que compara algunas de las características clave entre un rango de datos simple y una tabla de Excel formal:
 
     .row.justify-content-center
       .col-lg-9
@@ -196,9 +196,9 @@
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
-        h3.titulo-con-imagen__texto Tablas de Power Pivot
+        h3.titulo-con-imagen__texto Tablas de <em>Power Pivot</em>
     
-    p.mb-5 Excel también cuenta con una tecnología avanzada para análisis de grandes volúmenes de datos: Power Pivot. Esta herramienta permite importar y modelar millones de registros mediante un motor de base de datos en memoria. Power Pivot extiende Excel con funcionalidades similares a las de una base de datos relacional, permitiendo:
+    p.mb-5 Excel también cuenta con una tecnología avanzada para análisis de grandes volúmenes de datos: <em>Power Pivot</em>. Esta herramienta permite importar y modelar millones de registros mediante un motor de base de datos en memoria. <em>Power Pivot</em> extiende Excel con funcionalidades similares a las de una base de datos relacional, permitiendo:
 
     .row.mb-5.align-items-center
       .col-lg-3.mb-3.mb-lg-0
@@ -227,7 +227,7 @@
                 .col-lg-auto
                   img(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
                 .col-lg
-                  p.mb-0.text-bold Usar funciones DAX (Data Analysis Expressions) para cálculos complejos
+                  p.mb-0.text-bold Usar funciones DAX (<em>Data Analysis Expressions</em>) para cálculos complejos
           .col-lg-6.mb-3.mb-lg-0
             .bg-color-5.p-3.tarjeta(data-aos="fade-left")
               .row.align-items-center
@@ -248,7 +248,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/12.png')})`}"
       )(data-aos="zoom-in")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Una de las funcionalidades más potentes al trabajar con Tablas de Excel es el uso de referencias estructuradas, las cuales reemplazan las referencias tradicionales de celda (como B2 o E5) por nombres de columna. Esto mejora la legibilidad de las fórmulas, facilita su mantenimiento y permite que se adapten automáticamente cuando se agregan o eliminan filas.
+        p.mb-0 Una de las funcionalidades más potentes al trabajar con tablas de Excel es el uso de referencias estructuradas, las cuales reemplazan las referencias tradicionales de celda (como B2 o E5) por nombres de columna. Esto mejora la legibilidad de las fórmulas, facilita su mantenimiento y permite que se adapten automáticamente cuando se agregan o eliminan filas.
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -265,9 +265,9 @@
         .bg-color-23.tarjeta.p-4.text-white(data-aos="fade-left")
           h5 Sintaxis general:
           p.mb-0 = [@NombreColumna]
-          p.mb-0 Por ejemplo, para calcular una comisión del 5 % sobre el salario, la fórmula tradicional sería =E2*0.05. En una Tabla de Excel, la fórmula equivalente y más legible sería:
+          p.mb-0 Por ejemplo, para calcular una comisión del 5 % sobre el salario, la fórmula tradicional sería =E2*0.05. En una tabla de Excel, la fórmula equivalente y más legible sería:
           p.mb-0 = [@Salario]*0.05
-          p.mb-0 Al escribir esta fórmula en una sola celda de la columna "Comisión", Excel la aplicará automáticamente a toda la columna, extendiendo el cálculo sin necesidad de copiar y pegar.
+          p.mb-0 Al escribir esta fórmula en una sola celda de la columna "comisión", Excel la aplicará automáticamente a toda la columna, extendiendo el cálculo sin necesidad de copiar y pegar.
 
     h3.bg-color-14.d-md-inline.p-3.tarjeta Actividad práctica: uso de referencias estructuradas
     
@@ -298,11 +298,11 @@
                 td.p-2 5
                 td.p-2 250.000
               tr.bg-color-sintesis
-                td.p-2 Mouse Inalámbrico
+                td.p-2 <em>Mouse</em> Inalámbrico
                 td.p-2 5
                 td.p-2 90.000
               tr
-                td.p-2 Diadema Gamer
+                td.p-2 Diadema <em>Gamer</em>
                 td.p-2 3
                 td.p-2 320.000
 
@@ -363,7 +363,7 @@
           img(src="@/assets/curso/tema2/16.png", data-aos="zoom-in")
       .col-lg-7.order-lg-1
         .bg-color-5.tarjeta.p-5(data-aos="fade-left")
-          p.mb-0 Otra ventaja importante de las Tablas de Excel es la opción de activar la fila de totales, una herramienta que agrega una fila especial al final de la tabla para calcular sumas, promedios, conteos u otras funciones de agregación sin necesidad de fórmulas adicionales. Al habilitar esta opción desde la pestaña Diseño de tabla, aparece una nueva fila con menús desplegables en cada celda. Esto permite elegir qué tipo de operación aplicar sobre cada columna de forma rápida y personalizada.
+          p.mb-0 Otra ventaja importante de las tablas de Excel es la opción de activar la fila de totales, una herramienta que agrega una fila especial al final de la tabla para calcular sumas, promedios, conteos u otras funciones de agregación sin necesidad de fórmulas adicionales. Al habilitar esta opción desde la pestaña Diseño de tabla, aparece una nueva fila con menús desplegables en cada celda. Esto permite elegir qué tipo de operación aplicar sobre cada columna de forma rápida y personalizada.
 
     h3.bg-color-14.d-md-inline.p-3.tarjeta Actividad práctica: uso de la fila de totales
     
@@ -413,13 +413,13 @@
                   p.mb-0 Se añadirá una nueva fila al final de la tabla.
                 li.mb-2.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 La celda bajo la columna "Subtotal" mostrará automáticamente la suma total (por ejemplo: 4.260.000).
+                  p.mb-0 La celda bajo la columna "subtotal" mostrará automáticamente la suma total (por ejemplo: 4.260.000).
                 li.mb-2.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 Al hacer clic en esa celda, verá un menú desplegable con opciones como: Promedio, Recuento, Máx, Mín, etc.
+                  p.mb-0 Al hacer clic en esa celda, verá un menú desplegable con opciones como: promedio, recuento, Máx, Mín, etc.
                 li.mb-2.d-flex.bg-color-white.p-1.tarjeta
                   i.fas.fa-circle-arrow-right.bg-color-12
-                  p.mb-0 Puede aplicar una función diferente en cualquier columna. Por ejemplo, en la columna "Cantidad", seleccione Suma para conocer el número total de productos vendidos.
+                  p.mb-0 Puede aplicar una función diferente en cualquier columna. Por ejemplo, en la columna "cantidad", seleccione suma para conocer el número total de productos vendidos.
 
         separador
         
