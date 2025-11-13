@@ -447,7 +447,7 @@
           .div(titulo="Ejes (eje X y eje Y)")
             p Proporcionan el contexto y la escala para los datos representados.
 
-            p <b>Títulos de eje</b>: Son etiquetas que explican qué representa cada eje (por ejemplo: "Meses", "Ventas en millones de COP"). Son fundamentales, especialmente cuando las unidades no son obvias.
+            p <b>Títulos de eje</b>: son etiquetas que explican qué representa cada eje (por ejemplo: "meses", "ventas en millones de COP"). Son fundamentales, especialmente cuando las unidades no son obvias.
 
             p <b>Escala</b>: Se recomienda iniciar el eje de valores en cero para evitar distorsionar las diferencias entre categorías. Además, usar intervalos lógicos facilita la interpretación (por ejemplo: 0, 10, 20, 30).
 
