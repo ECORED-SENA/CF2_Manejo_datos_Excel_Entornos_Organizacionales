@@ -66,7 +66,7 @@ export default {
           },
           {
             numero: '1.6',
-            titulo: '1.6.	Filtrado de datos',
+            titulo: 'Filtrado de datos',
             hash: 't_1_6',
           },
         ],

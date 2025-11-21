@@ -71,7 +71,7 @@
                 td.p-2 Rodríguez
               tr.bg-color-sintesis
                 td.p-2 Carlos
-                td.p-2 Florez
+                td.p-2 Flores
                 td.p-2 Silva
               tr
                 td.p-2 Ana
@@ -356,23 +356,27 @@
                   .lista-ol--cuadro__vineta
                     span e
                   | Seleccionar el formato de datos para cada columna:
-              ol.lista-ol--cuadro.mb-0.ms-3
-                li.d-flex.bg-color-white.p-1
-                  .lista-ol--cuadro__vineta
-                    span a
-                  | Columna 1 (ID): general o texto
-                li.d-flex.bg-color-white.p-1
-                  .lista-ol--cuadro__vineta
-                    span b
-                  | Columna 2 (nombre): texto
-                li.d-flex.bg-color-white.p-1
-                  .lista-ol--cuadro__vineta
-                    span c
-                  | Columna 3 (email): texto
-                li.d-flex.bg-color-white.p-1
-                  .lista-ol--cuadro__vineta
-                    span d
-                  | Columna 4 (teléfono): texto
+              ul.lista-ul--cuadro.mb-0.ms-3
+                ul
+                  li.bg-color-white.p-1
+                    i.lista-ul__vineta
+                    | Columna 1 (ID): general o texto
+
+                ul
+                  li.bg-color-white.p-1
+                    i.lista-ul__vineta
+                    | Columna 2 (nombre): texto
+
+                ul
+                  li.bg-color-white.p-1
+                    i.lista-ul__vineta
+                    | Columna 3 (email): texto  
+
+                ul    
+                  li.bg-color-white.p-1.mb-2
+                    i.lista-ul__vineta
+                    | Columna 4 (teléfono): texto
+
               ol.lista-ol--cuadro.mb-0
                 li.d-flex.bg-color-white.p-1
                   .lista-ol--cuadro__vineta
@@ -493,7 +497,6 @@
         figure
           .video.mb-2
             iframe(width="560" height="315" src="https://www.youtube.com/embed/wXnQ1DTKMA8?si=QZ_VqcLPchcnqMvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -601,7 +604,6 @@
         figure
           .video.mb-2
             iframe(width="560" height="315" src="https://www.youtube.com/embed/TAN4f57Qz6Y?si=h_HxGsAyYJ3f2yqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
 
     separador
     
@@ -963,7 +965,6 @@
     figure
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6fUnZBP-f8s?si=B3splUmYge0x_m54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
 
     separador
     
