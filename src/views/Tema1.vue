@@ -496,7 +496,7 @@
 
         figure
           .video.mb-2
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/wXnQ1DTKMA8?si=QZ_VqcLPchcnqMvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/CkmLvczbH_I?si=rWSW8uXsJAdu5t5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
