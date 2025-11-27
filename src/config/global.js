@@ -175,7 +175,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/Excel_CF02_DU.pdf',
+        download: 'downloads/21710122_CF02_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -334,7 +334,7 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Manuel Felipe Echevarría orozco',
+          nombre: 'Manuel Felipe Echevarría Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

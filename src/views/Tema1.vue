@@ -71,7 +71,7 @@
                 td.p-2 Rodríguez
               tr.bg-color-sintesis
                 td.p-2 Carlos
-                td.p-2 Flores
+                td.p-2 Flórez
                 td.p-2 Silva
               tr
                 td.p-2 Ana
@@ -221,7 +221,7 @@
                 .col-lg-auto
                   img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
                 .col-lg
-                  p.mb-0.text-bold Conversión de texto a columnas
+                  p.mb-0.text-bold Conversión de formatos de archivos
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
